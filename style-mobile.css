@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* ナビゲーション */
+
+nav{
+	width: 100%;
+}
+
+.toggle_btn span{
+	width: 31px;
+}
+
+/* メインビジュアル */
+
+.main-visual h1{
+	font-size: 77px;
+}
+
+img.main-visual-title{
+	width: 30%;
+}
+
+/* 紹介文 */
+
+.introduction{
+	font-size: 15px;
+}
+
+p.introduction-read{
+	font-size: 18px;
+}
+
+/* ニュース */
+.news-list-div{
+	font-size: 13px;
+}
+
+.news-list-div p{
+	text-align: start;
+}
+
+/* プロダクト */
+
+.product-name-list{
+	display: block;
+	margin-bottom: 11vh;
+}
+
+li.Name{
+	justify-content: center;
+	margin-bottom: 1.3rem;
+}
+
+.product-list li{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin-bottom: 3%;
+}
+
+#vanity, #haruka, #azisai, #hero{
+	display: grid;
+	justify-content: center;
+	grid-template-rows: 40vw 45vw 41vw;
+	grid-template-columns: 47vw 35vw;
+	margin-bottom: 10%;
+}
+
+.v-one h2, .h-two h2, .a-one h2, .e-two h2{
+	font-family: Didot;
+	font-size: 27px;
+}
+
+.v-one p, .h-two p, .a-one p, .e-two p{
+	font-family: Hiragino Mincho ProN W3;
+	font-size: 11px;
+}
+
+.v-one{
+	grid-row: 1;
+	grid-column: 1;
+	padding: 0.7rem;
+	background-color: #563D66;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+}
+
+.a-one{
+	grid-row: 1;
+	grid-column: 1;
+	padding: 0.7rem;
+	background-color: #8B9CA5;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+}
+
+.h-two{
+	grid-row: 1;
+	grid-column: 1;
+	padding: 0.7rem;
+	background-color: #5A6D55;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+}
+
+.e-two{
+	grid-row: 1;
+	grid-column: 1;
+	padding: 0.7rem;
+	background-color: #9C7167;
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	position: relative;
+}
+
+.v-two, .h-one, .a-two, .e-one{
+	grid-row: 1;
+	grid-column: 2;
+}
+
+.v-three, .h-four, .a-three, .e-four{
+	display: none;
+}
+
+.v-four, .h-three, .a-four, .e-four{
+	grid-row: 2;
+	grid-column: 1/3;
+}
+
+.order-button{
+	bottom: 2.5vh;
+	right: 1.8vh;
+}
+
+.order-button a{
+	position: relative;
+	text-decoration: none;
+	color: #E5E5E5;
+	font-size: 11px;
+	padding: 7px 10px;
+	border: 0.7px solid #e5e5e5;
+}
+
+.order-button a::after{
+	width: 20%;
+	right: -11%;
+}
+
+/* 下部写真 */
+
+img.desktop-picture{
+	display: none;
+}
+
+img.mobile-picture{
+	display: block;
+	width: 100%;
+}
+
+/* フッター */
+
+.footer-content{
+	font-size: 15px;
+	display: block;
+	text-align: center;
+}
+
+.copy-right{
+	font-size: 13px;
+}
